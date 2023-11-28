@@ -17,7 +17,7 @@ body {
 }
 
 .container1 {
-  height: 30%;
+  height: 20%;
   display: flex;
   flex-direction: column;
   background-image: url(../Images/background1.jpg);
@@ -83,8 +83,8 @@ a#title {
   text-align: center;
   color: aliceblue;
   padding: 10% 20%;
-  height: 450px;
-  width: auto;
+  /* height: 508px; */
+  /* width: 100%; */
   background-color: rgba(0, 0, 0, 0.612);
   font-weight: bold;
   display: block;
@@ -122,29 +122,41 @@ p.home-text {
   cursor: pointer;
   border-radius: 25px;
 }
-
+.box-1{
+  /* border: 2px solid red; */
+  display: flex;
+  max-width: 1700px;
+  margin: auto;
+  justify-content: center;
+  column-gap: 37px;
+  align-items: center;
+}
 .container2 {
   background-image: url(../Images/background6.jpg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 7% 10%;
+  background-size: cover;
+  padding: 20px;
 }
 
 img.girlimage {
   border-radius: 25px;
-  width: 400px;
-}
+  width: 33%;
+  height: auto;
+  min-width: 40%;
+margin-left: 30px;}
 
 .content2 {
   border: 2px solid #f2f2f2;
   background-color: #e1ecfe;
   border-radius: 25px;
-  opacity: 0.8;
-  height: auto;
-  width: 450px;
-  margin-left: 20px;
-  padding: 2% 3% 7% 3%;
+  /* opacity: 0.8; */
+  /* height: 20vw; */
+  box-shadow: 1px 1px 100px 0.1px rgba(205, 200, 200, 0.728);
+  backdrop-filter: blur(5px);
+  max-width: 618px;
+  width: 100%;
+  padding: 4%;
+  /* margin-left: 20px; */
+  margin-right: 4%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -152,10 +164,12 @@ img.girlimage {
 }
 
 h2 {
-  margin-bottom: 0px;
+  /* margin-bottom: 0px; */
   font-weight: bolder;
+  margin: 0px;
+  /* margin-left: 49px; */
   font-size: 50px;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   color: rgb(3, 56, 109);
 }
 
@@ -168,10 +182,12 @@ h2 {
 
 #para-text {
   display: inline-block;
-  margin-left: 10px;
+  /* margin-left: 50px; */
+  margin-right: 9%;
   font-size: 16px;
   color: rgb(34, 43, 53);
-  padding: 5px;
+
+  /* padding: 30px; */
   text-align: left;
   word-break: break-all;
 }
@@ -182,57 +198,70 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding: 20px;
+}
+.box-2{
+  /* border: 1px solid red; */
+  display: flex;
+  max-width: 1700px;
+  margin: auto;
+  justify-content: center;
+}
+#content3{
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  width: 100%;
 }
 
 #features {
   text-align: center;
   color: aliceblue;
-  font-weight: bold;
-  padding-bottom: 0px;
+  font-weight: 600;
+  /* padding-bottom: 0px; */
 }
 
 p#features-text {
-  /* justify-content: center;  */
-  text-align: center;
-  margin-left: 24%;
-  margin-top: 0%;
-  padding-top: 0px;
+  justify-content: center; 
+  text-align: center; 
+  /* margin-top: 0%; */
+  /* padding-top: 0px; */
   color: rgb(247, 247, 247);
   font-weight: bolder;
   font-size: x-large;
-  width: 50%;
+  /* width: 50%; */
+  max-width: 600px;
   height: auto;
 }
-
-.c-button {
-  /* padding-top: 10%; */
-  margin-top: 12%;
-}
-
 .card {
   display: flex;
-
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding-bottom: 50px;
-  /* padding-right: 50px; */
+  width: 92%;
+  max-width: 100%;
+  column-gap: 20px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 [id^="card"] {
   height: fit-content;
-  width: 20%;
-  padding: 30px 40px;
+  width: 29%;
+  max-width: 422px;
+  padding: 30px 20px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px 10px;
+  margin: auto;
   border: 2px solid beige;
   background-color: rgba(242, 243, 247, 0.625);
+  box-shadow: 1px 1px 100px 0.1px rgba(205, 200, 200, 0.728);
+  backdrop-filter: blur(5px);
   border-radius: 25px;
 }
 
@@ -249,44 +278,65 @@ p#features-text {
 }
 
 #c-heading {
-  padding-top: 0%;
+  padding-top: 20px;
   padding-bottom: 0px;
   color: #2e4664;
+  margin: 0px;  
 }
 
 #c-text {
   text-align: center;
-  padding-top: 0px;
-  margin-top: -3%;
+  /* padding-top: 0px; */
+  padding: 20px;
+  font-weight: 600;
+  margin: 0px;
+  max-width: 743px;
+  /* margin-top: -3%; */
   color: #4c6783;
-  padding-bottom: 10%;
 }
-
+.box-3{
+  /* border: 1px solid red; */
+  display: flex;
+  max-width: 1700px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  /* padding: 2%; */
+}
 .container4 {
   background-image: url(../Images/background6.jpg);
-  display: flex;
   background-size: cover;
-  justify-content: left;
+  padding: 20px;
+}
+.box-4{
+  /* border: 1px solid red; */
+  /* display: flex; */
+  max-width: 1700px;
+  margin: auto;
+  justify-content: center;
   align-items: center;
-  padding: 93px 250px;
 }
 
 img.features {
   border-radius: 25px;
-  width: 30%;
+  width: 38%;
+  max-height: 350px;
   height: auto;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 .content4 {
   border: 2px solid #f2f2f2;
   background-color: #e1ecfe;
+  box-shadow: 1px 1px 100px 0.1px rgba(205, 200, 200, 0.728);
+  backdrop-filter: blur(5px);
   border-radius: 25px;
   opacity: 0.8;
   height: auto;
-  width: 50%;
+  max-width: 40%;
+  width: 100%;
   margin-left: 20px;
-  padding: 80px 50px 80px 100px;
+  padding: 70px 97px 80px 58px;
   /* display: flex; */
   flex-direction: column;
   justify-content: center;
@@ -294,7 +344,7 @@ img.features {
 }
 
 h3#Competence {
-  font-size: 38px;
+  font-size: 48px;
   font-weight: bolder;
   text-align: left;
   color: rgb(8, 67, 126);
@@ -319,9 +369,10 @@ p#Competence-text {
   height: inherit;
   word-wrap: break-word;
   color: #7c7e7e;
+  max-width: 454px;
   /* width: 30vw; */
   font-weight: bold;
-  font-size: smaller;
+  font-size: medium;
   text-align: left;
   padding: 0px 10px 0px 20px;
 }
@@ -329,7 +380,7 @@ p#Competence-text {
 .progressLabel {
   /* margin: auto; */
   display: flex;
-  padding: 0px 10px 0px 20px;
+  padding: 0px 120px 0px 20px;
   justify-content: space-between;
   font-weight: 600;
   font-size: 13px;
@@ -337,11 +388,12 @@ p#Competence-text {
 }
 
 #progress {
-  width: 90%;
+  width: 100%;
 }
 
 meter {
-  width: 100%;
+  /* width: 100%; */
+  width: 85%;
   padding: 0px 10px 0px 20px;
 }
 
@@ -384,9 +436,11 @@ p.client-text {
 }
 
 [id^="client-card"] {
-  width: 27%;
-  height: auto;
-  padding: 70px 10px;
+  width: auto;
+    /* max-width: 37%; */
+    /* height: auto; */
+  max-height: 200px;
+  padding: 19px 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -398,7 +452,8 @@ p.client-text {
 
 .client {
   border-radius: 25px;
-  width: 70%;
+  /* width: 70%; */
+  max-width: 150px;
   padding: 25px;
   /* height: 50%; */
   /* align-items: center; */
@@ -406,7 +461,8 @@ p.client-text {
 
 .container6 {
   background-image: url(../Images/background5.jpg);
-  padding: 1%;
+  background-size: cover;
+  padding: 20px;
 }
 
 ul.connect {
@@ -423,18 +479,18 @@ ul.connect {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding-bottom: 50px;
+  max-width: 100%;
+  /* padding-bottom: 50px; */
   /* padding-right: 50px; */
 }
 
 div#con-card {
-  width: 80%;
-  height: fit-content;
+  width: 86%;
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px 100px;
+  margin: 20px 44px;
   border: 2px solid beige;
   background-color: rgba(242, 243, 247, 0.3);
   border-radius: 25px;
@@ -472,21 +528,37 @@ div#con-card {
 }
 
 .container7 {
-  height: 200px;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  /* height: 300px; */
   background-image: url(../Images/background3.jpg);
   background-position: center;
   background-size: cover;
+  padding: 20px;
+}
+.box-5{
+  /* border: 2px solid red; */
+  max-width: 1700px;
+  display: flex;
+  margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.join{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  max-width: 100%;
+  width: 61%;
+  column-gap: 45%;
+  padding: 20px;
 }
 
 #feedjoin {
   font-weight: 600;
-  font-size: large;
-  color: #38759b;
-  margin-bottom: 40px;
+  font-size: larger;
+  color: #0d0d0e;
+  text-wrap: nowrap;
+  /* margin-bottom: 40px; */
 }
 
 #joininputwithicon {
@@ -504,7 +576,7 @@ div#con-card {
 }
 
 input[type="email"] {
-  width: 30vw;
+  width: 42vw;
   height: 40px;
   margin-right: 20px;
   border: none;
@@ -528,17 +600,28 @@ input[type="email"] {
 }
 
 #footer {
-  height: 300px;
+  /* height: 300px; */
   background-color: rgb(2, 2, 36);
   color: white;
+  padding: 2% 2.5%;
+ 
+
+}
+.box-6{
   width: 100%;
+  /* border: 2px solid red; */
+  max-width: 1700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 #footermain {
   height: inherit;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -561,6 +644,7 @@ input[type="email"] {
 .footertext {
   font-size: 12px;
   font-weight: 600;
+  margin: 0px;
   /* padding: 4px 0px; */
   /* line-height: 2em; */
 }
@@ -568,7 +652,7 @@ input[type="email"] {
 .footerAboutUs {
   margin-right: 20%;
   width: 20%;
-  line-height: 2em;
+  /* line-height: 2em; */
 }
 
 @media (max-width: 1024px) {
@@ -586,29 +670,26 @@ input[type="email"] {
   .navbar-right {
     display: none;
   }
-
-  .container2 {
+.card{
+  min-width: 33.3%;
+}
+  .box-1{
     flex-direction: column;
     height: fit-content;
     padding: 80px 0px;
-    align-items: center;
   }
-
   img.girlimage {
     width: 85%;
     height: auto;
+    margin-right: 0px;
   }
 
   .content2 {
-    width: 79%;
-    margin-left: 0px;
+    max-width: 79%;
+    margin-right: -30px;
     margin-top: 20px;
+    
   }
-
-  .card {
-    padding: 7%;
-  }
-
   .paragraph {
     display: block;
     width: 70%;
@@ -616,16 +697,17 @@ input[type="email"] {
 
   [id^="card"] {
     min-width: 33.3%;
-    width: 40%;
-    /* height: 350px; */
+    margin-bottom: 20px;
   }
-
+.c-card{
+  padding-right: 0px;
+}
   #competence-text {
     padding: 10px 20px;
   }
 
   .c-button {
-    margin-top: 6%;
+    margin-top: 16%;
   }
 
   #c-text {
@@ -633,7 +715,7 @@ input[type="email"] {
     padding-bottom: 0%;
   }
 
-  .container4 {
+  .box-3 {
     flex-direction: column;
     height: fit-content;
     padding: 80px 0px;
@@ -641,16 +723,18 @@ input[type="email"] {
   }
 
   img.features {
-    width: 91%;
+    width: 85%;
     height: auto;
     margin-bottom: 20px;
+    margin-left: 0px;
   }
 
   .content4 {
-    width: 78%;
+    max-width: 68%;
+    margin-left: 0px;
   }
 
-  .container7 {
+  .join {
     display: flex;
     /* justify-content: center; */
     flex-direction: column;
@@ -663,13 +747,10 @@ input[type="email"] {
   .item {
     font-size: smaller;
   }
-
-  #feedjoin {
-    margin-bottom: -5%;
-  }
-
+  
   input[type="email"] {
     width: 62vw;
+    margin-right: 0px;
   }
 
   .inputIcon {
@@ -718,26 +799,31 @@ input[type="email"] {
     /* font-size: 1.5em; */
   }
 
+  .content2{
+    align-items: center;
+  }
   .get-started-button1 {
     float: none;
   }
 
   [id^="card"] {
-    width: 72%;
+    width: 79%;
     padding: 18px;
     /* margin-top: 8%; */
   }
 
-  #c-text {
-    width: 40%;
+  .client{
+    width:45%;
   }
-
+#para-text{
+  text-align: center;
+}
   .c-button {
     margin-top: 3%;
   }
 
   .content4 {
-    width: 91%;
+    max-width: 83%;
     margin-left: 0px;
     padding: 0px 0px 20px 0px;
   }
@@ -762,8 +848,11 @@ input[type="email"] {
   }
 
   [id^="client-card"] {
-    width: 100%;
+    width: 80vw;
     height: auto;
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
   }
 
   .stayconnect {
@@ -776,14 +865,16 @@ input[type="email"] {
 
   #joinInput {
     flex-direction: column;
+    margin-left: 37px;
   }
 
   #feedjoin {
-    margin-bottom: -6%;
+    margin-bottom: 1%;
   }
 
   input[type="email"] {
     width: 62vw;
+    margin-right: 0px;
   }
 
   .subscribe {
@@ -794,7 +885,12 @@ input[type="email"] {
     right: 13%;
     top: 15px;
   }
-
+  div#con-card{
+    margin: 80px 10px;
+  }
+  .con-card{
+    padding-bottom: 0px;
+  }
   #joinInput {
     flex-direction: column;
   }
